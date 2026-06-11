@@ -1,0 +1,22 @@
+baseURL = 'https://cesartorrico977.github.io/mi-portafolio/'
+languageCode = 'es-es'
+title = 'Mi Portafolio'
+theme = 'blowfish'
+
+[params]
+  colorScheme = "marina"
+  defaultAppearance = "dark"
+
+  [params.homepage]
+    layout = "profile"
+    showRecent = true
+
+  [params.author]
+    name = "Don Gilberto KCHA Palomitas"
+    image = "img/avatar.jpeg"
+    headline = "Vendedor de Palomitas Profesional"
+    bio = "Gracias por visitar mi espacio web."
+    links = [
+      { github = "https://github.com/cesartorrico977" },
+      { email = "mailto:cesartorrico977@gmail.com" }
+    ]
